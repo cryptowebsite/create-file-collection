@@ -1,0 +1,5 @@
+---
+  - name: Create file
+    netology.yandex_cloud_elk.create_file:
+      path: ./test_playbook_file.txt
+      content: "Some text from a playbook"

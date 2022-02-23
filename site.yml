@@ -1,0 +1,6 @@
+---
+- name: Base config
+  hosts: localhost
+  gather_facts: no
+  roles:
+    - ./roles/create_file
